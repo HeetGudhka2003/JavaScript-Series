@@ -2,15 +2,15 @@
 
 // Using const for a constant value, which cannot be reassigned
 
-const accountId = 144553
+const accountId = 144553;
 
 // Using let for a variable that can be reassigned
 
-let accountEmail = "hitesh@google.com"
+let accountEmail = "hitesh@google.com";
 
 // Using var for a variable that can be reassigned, but not recommended due to scope issues
 
-var accountPassword = "12345"
+var accountPassword = "12345";
 
 // If you don't use any keyword (const, let, var), JavaScript assumes it's a global variable
 
@@ -26,16 +26,17 @@ let accountState;
 
 // Modifying the values of the variables
 
-accountEmail = "hc@hc.com"
+accountEmail = "hc@hc.com";
 
-accountPassword = "21212121"
+accountPassword = "21212121";
 
-accountCity = "Bengaluru"
+accountCity = "Bengaluru";
 
 // Outputting the value of accountId to the console
 
 console.log(accountId);
 
+// Prefer not to use var because of issues related to block scope and functional scope.
 
 // Displaying the values of the variables in a table format
 
@@ -43,11 +44,13 @@ console.table([accountId, accountEmail, accountPassword, accountCity, accountSta
 
 /*
 
-1. Var is globally scoped while let and const are block scoped.
+Difference Between Let Var & Const
 
-2. Var can be updated and redeclared within its scope.
+1. var is globally scoped while let and var are block scoped.
 
-3. let can be updated but cannot be redeclared.
+2. var can be updated and redeclared.
+
+3. let can be updated but not redeclared.
 
 4. const can neither be updated nor be redeclared.
 
