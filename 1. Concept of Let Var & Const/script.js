@@ -49,10 +49,16 @@ console.table([accountId, accountEmail, accountPassword, accountCity, accountSta
 
 /*
 
-const = can't be re-assigned a value and can't be declared again  (block scope)
+1. var is globally scoped while let and const are block scoped.
 
-let = can be re-assigned a value but can't be declared again (block scope)
+2. var can be updated and redeclared within its scope.
 
-var = it can be re-assigned a value and it can also be declared again  (Global scope)
+3. let can be updated but cannot be redeclared.
+
+4. const can neither be updated nor be redeclared.
+
+5. var variables are initialized with undefined whereas let and const variables are not initialized.
+
+6. const must be initialized during declaration unlike let and var.
 
 */
