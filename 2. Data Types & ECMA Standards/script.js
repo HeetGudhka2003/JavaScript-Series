@@ -8,7 +8,6 @@ alert(3 + 3);
 
 // Let us talk about Data Types in JS
 
-
 // String : It is always advisible to write string in double quotes.
 
 let Name = "Sheetal";
@@ -29,9 +28,17 @@ console.log(typeof age);
 
 console.log(typeof isLoggedIn);
 
-console.log(typeof null); // type of null is an object
+let myName = null;
 
-console.log(typeof undefined); // type of undefined is undefined
+console.log(typeof myName);
+
+// null is an object type
+
+let isActive = undefined;
+
+console.log(typeof isActive)
+
+// undefined is an undefined type only.
 
 // Let us now print the values
 
