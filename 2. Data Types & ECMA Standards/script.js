@@ -8,7 +8,7 @@ alert(3 + 3);
 
 // Let us talk about Data Types in JS
 
-// String : It is always advisible to write string in double quotes.
+// String : It is always advisable to write string in double quotes.
 
 let Name = "Sheetal";
 
