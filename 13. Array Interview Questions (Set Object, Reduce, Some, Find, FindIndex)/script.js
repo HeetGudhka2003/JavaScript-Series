@@ -174,7 +174,7 @@ function uniqueArray() {
     arr3.forEach((ele) => {
 
         if (!uniqueElements.includes(ele)) {
-
+            
             uniqueElements.push(ele);
         }
     });
