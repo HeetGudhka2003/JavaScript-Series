@@ -1,1 +1,1 @@
-I have covered JavaScript from Basics to Advanced. The series is totally interview based.
+I have covered JavaScript from very basics to the advanced. This series will be totally interview based series.
