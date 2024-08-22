@@ -46,7 +46,7 @@ console.table([accountId, accountEmail, accountPassword, accountCity, accountSta
 
 Difference Between Let Var & Const
 
-1. var is globally scoped while let and var are block scoped.
+1. var is globally scoped while let and const are block scoped.
 
 2. var can be updated and redeclared.
 
